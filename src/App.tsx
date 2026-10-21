@@ -28,7 +28,7 @@ export default function App() {
         <div className="wrap">
           <nav className="nav" aria-label="Primary navigation">
             <a className="brand" href={SITE_URL} aria-label="Vorqexa home">
-              <img src="/assets/logo-sm.webp" alt="Vorqexa" height={32} decoding="async" />
+              <img src="/vorqexa-journal/assets/logo-sm.webp" alt="Vorqexa" height={32} decoding="async" />
               <span className="brand-tag mono">Journal</span>
             </a>
 
@@ -157,7 +157,7 @@ export default function App() {
         <div className="wrap">
           <div className="foot-row">
             <a className="brand" href={SITE_URL} aria-label="Vorqexa home">
-              <img src="/assets/logo-sm.webp" alt="Vorqexa" height={42} loading="lazy" decoding="async" />
+              <img src="/vorqexa-journal/assets/logo-sm.webp" alt="Vorqexa" height={42} loading="lazy" decoding="async" />
             </a>
             <div className="foot-links">
               {SOCIALS.map((s) => (
